@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageview_fruit_photo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fruit Name"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imageview_fruit_photo"
+        android:id="@+id/textview_fruit_name"
+        android:textColor="#FF0000"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_fruit_description"
+        android:layout_below="@id/textview_fruit_name"
+        android:layout_toRightOf="@id/imageview_fruit_photo"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:text="Fruit Description"/>
+
+
+</RelativeLayout>
