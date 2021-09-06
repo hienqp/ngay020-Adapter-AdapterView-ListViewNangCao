@@ -45,6 +45,7 @@ public class FruitAdapter extends BaseAdapter {
         return 0;
     }
 
+    // phương thức trả về 1 View (item) trên ListView
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
